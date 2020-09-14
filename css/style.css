@@ -146,9 +146,6 @@ Header .site-header {
     flex-basis: 60%;
 }
 
-.seccion-inferior .testimoniales {
-    flex-basis: calc(40% - 2rem);
-}
 
 .entrada-blog {
     display: flex;
