@@ -217,3 +217,9 @@ Header .site-header {
 .boton-verde {
     background-color: #71b100;
 }
+/** img**/
+
+
+.img {
+    height: 30vh;
+    width: 40vh;
