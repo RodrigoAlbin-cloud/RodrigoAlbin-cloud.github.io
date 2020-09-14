@@ -221,5 +221,5 @@ Header .site-header {
 
 
 .img {
-    height: 30vh;
-    width: 40vh;
+    max-width: 60%;
+}
