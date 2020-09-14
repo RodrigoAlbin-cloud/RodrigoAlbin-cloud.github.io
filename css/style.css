@@ -73,7 +73,7 @@ Header .site-header {
 .anuncio {
     flex: 0 0 calc(33.3% - 1rem);
     border: 1px solid #b5b5b5;
-    background: #f5f5f5;
+    background: #3f3f3f;
     margin-bottom: 2rem;
 }
 
@@ -86,10 +86,6 @@ Header .site-header {
     margin: 0;
 }
 
-.precio {
-    color: #71b100;
-    font-weight: 700;
-}
 
 .iconos-caracteristicas {
     list-style: none;
@@ -208,17 +204,28 @@ Header .site-header {
 }
 
 .boton-amarillo {
-    background-color: green;
+    background-color: rgb(6, 121, 6);
 }
 
 .boton-verde {
     background-color: #71b100;
 }
+
+.bcenter{
+    display:block;
+    margin:auto;
+}
+
 /** img**/
 
 
 .img {
+    display:block;
+    margin:auto;
     height: 285px;
     width: 200px;
 }
-
+/** Fondito**/
+.fondo{
+    background-color: rgb(48, 45, 45)
+}
