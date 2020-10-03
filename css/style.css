@@ -312,3 +312,11 @@ Header .site-header {
     position: relative;
     width: 80px;
 }
+
+.titulo {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: solid;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
