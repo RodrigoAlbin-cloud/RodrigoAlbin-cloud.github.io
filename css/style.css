@@ -6,7 +6,8 @@ Header .site-header {
 }
 
 .site-header.inicio {
-    background: url(../img/original.jpg);
+    background-color: #b5b5b5;
+    /**url(../img/original.jpg);*/
     background-position: center center;
     background-size: cover;
     height: 15vh;
@@ -21,6 +22,12 @@ Header .site-header {
     left: 20px;
 }
 
+.search {
+    position: relative;
+    top: -30px;
+    right: 20px;
+}
+
 .contenido-header {
     height: 100%;
     display: flex;
@@ -32,7 +39,7 @@ Header .site-header {
     color: white;
     padding-bottom: 2rem;
     max-width: 60rem;
-    line-height: 2;
+    line-height: 2rem;
 }
 
 .barra {
@@ -48,9 +55,15 @@ Header .site-header {
 .navegacion a {
     color: white;
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 1rem;
     /** =18px */
-    margin-right: 2rem;
+    margin-right: 0rem;
+}
+
+.npos {
+    position: relative;
+    top: -30px;
+    right: -239px;
 }
 
 .navegacion a :hover {
@@ -84,24 +97,6 @@ Header .site-header {
 .contenido-anuncio h3,
 .contenido-anuncio p {
     margin: 0;
-}
-
-
-.iconos-caracteristicas {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 500px;
-    flex: 1;
-}
-
-.iconos-caracteristicas li {
-    display: flex;
-}
-
-.iconos-caracteristicas li img {
-    margin-right: 2rem;
 }
 
 .ver-todas {
@@ -141,7 +136,6 @@ Header .site-header {
 .seccion-inferior .blog {
     flex-basis: 60%;
 }
-
 
 .entrada-blog {
     display: flex;
@@ -189,11 +183,11 @@ Header .site-header {
 
 .boton {
     color: white;
-    font-weight: 700;
+    font-weight: 30;
     text-decoration: none;
-    font-size: 1.8rem;
-    padding: 1rem 3rem;
-    margin-top: 3rem;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-top: 1rem;
     display: inline-block;
     text-align: center;
     border: none;
@@ -203,29 +197,118 @@ Header .site-header {
     cursor: pointer;
 }
 
+.pboton {
+    border-radius: 5px 0 0 5px;
+}
+
+.botonn {
+    background: #222;
+    background: -webkit-linear-gradient(#333, #222);
+    background: -moz-linear-gradient(#333, #222);
+    background: -o-linear-gradient(#333, #222);
+    background: -ms-linear-gradient(#333, #222);
+    background: linear-gradient(#333, #222);
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box;
+    border: 0px solid #444;
+    border-left-color: #000;
+    color: #fff;
+    display: block;
+    float: left;
+    text-align: center;
+    font-family: 'Cabin', helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 80px;
+}
+
 .boton-amarillo {
     background-color: rgb(6, 121, 6);
+    border-radius: 5px 5px 5px 5px;
 }
 
 .boton-verde {
     background-color: #71b100;
 }
 
-.bcenter{
-    display:block;
-    margin:auto;
+.bcenter {
+    display: block;
+    margin: auto;
 }
+
 
 /** img**/
 
-
 .img {
-    display:block;
-    margin:auto;
-    height: 285px;
+    display: block;
+    margin: auto;
+    height: 385px;
+    width: 300px;
+}
+
+
+/** Fondito**/
+
+.fondo {
+    background-color: rgb(48, 45, 45)
+}
+
+
+/** BUSCADOR CHINGON**/
+
+.webdesigntuts-workshop input {
+    background: #222;
+    background: -webkit-linear-gradient(#333, #222);
+    background: -moz-linear-gradient(#333, #222);
+    background: -o-linear-gradient(#333, #222);
+    background: -ms-linear-gradient(#333, #222);
+    background: linear-gradient(#333, #222);
+    border: 1px solid #444;
+    color: #888;
+    display: block;
+    float: left;
+    font-family: 'Cabin', helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: 40px;
+    margin: 0;
+    padding: 0 10px;
     width: 200px;
 }
-/** Fondito**/
-.fondo{
-    background-color: rgb(48, 45, 45)
+
+.webdesigntuts-workshop button {
+    background: #222;
+    background: -webkit-linear-gradient(#333, #222);
+    background: -moz-linear-gradient(#333, #222);
+    background: -o-linear-gradient(#333, #222);
+    background: -ms-linear-gradient(#333, #222);
+    background: linear-gradient(#333, #222);
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box;
+    border: 1px solid #444;
+    border-left-color: #000;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    display: block;
+    float: left;
+    font-family: 'Cabin', helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: 38px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 80px;
 }
