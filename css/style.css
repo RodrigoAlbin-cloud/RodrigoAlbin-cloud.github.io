@@ -86,6 +86,7 @@ Header .site-header {
 .anuncio {
     flex: 0 0 calc(24.9% - 1rem);
     border: 1px solid #b5b5b5;
+    border-radius: 5px 5px 5px 5px;
     background: #3f3f3f;
     margin-bottom: 2rem;
 }
